@@ -1,0 +1,390 @@
+/* تصاميم شاملة لجميع الشاشات */
+.opinions {
+    min-height: 100vh;
+    width: 100%;
+    text-align: center;
+    padding: 64px 0;
+  }
+  
+
+  
+  .opinion_info_container {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .opinion_info_container h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .opinion_info_container h5 {
+    font-size: 1.25rem;
+    margin-bottom: 24px;
+  }
+  
+  .main_btn {
+    margin-top: 24px;
+  }
+  
+  .mainBtn1 {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: var(--main1-color);
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .mainBtn1:hover {
+    background-color: var(--main2-color);
+  }
+  
+  .opinionsContainer {
+    margin-top: 64px;
+    background-color: #090909;
+    border-radius: 24px;
+    padding: 64px 32px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .opinionsContainer:hover {
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  }
+  
+  .splide {
+    width: 100%;
+    display: block;  /* تأكيد أن العرض بالكامل */
+  }
+  
+  .splide__slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    padding: 20px; /* إضافة مساحة داخل العنصر */
+  }
+  
+  .opinionsInfo {
+    margin-top: 32px;
+  }
+  
+  .opinionTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 16px;
+  }
+  
+  .rating {
+    margin: 16px 0;
+  }
+  
+  .rating i {
+    color: var(--main1-color);
+  }
+  
+  .line {
+    width: 3px;
+    height: 100%;
+    background-color: var(--main1-color);
+  }
+  
+  .opinionBox {
+    position: relative;
+    height: 250px !important;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #f9f9f9;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  }
+
+  .opinion_rating{
+    position: absolute;
+    bottom: 10px;
+  }
+
+
+  
+  .opinion_Container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .minParagraph {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .opinionTitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  
+  .opinionTitle h4 {
+    margin: 0;
+    font-size: 18px;
+    color: #222;
+    /* margin-top: 16px; */
+    margin-bottom: 17px;
+  }
+  
+  .opinionTitle span {
+    font-size: 14px;
+    color: #666;
+}
+  .opinion_rating span{
+      color: #282828 !important;
+      font-weight: 400;
+  }
+  .line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #ddd;
+    margin: 0 12px;
+  }
+  
+  .rating {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  
+  .opinion_paragraph{
+    font-size: 14px;
+    color: #000;
+    font-weight: 500;
+    text-align: justify;
+  }
+
+ 
+.Add_Your_Opinion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.main_btn{
+    margin: 0PX !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.opinion_main_info{
+    margin: 0PX !important;
+    margin-top: 128px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.opinion_main_info h5{
+    font-size: 30px;
+    color: #E8E8E8;
+}
+.ctas a{
+    cursor: pointer;
+}
+.BootstrapDialog{
+    width: 360px !important;
+}
+
+
+
+
+
+
+
+
+/* تصميم عام للـ Dialog */
+.BootstrapDialog {
+    padding: 20px;
+    background: #f9f9f9;
+  }
+  
+  /* تصميم الكتابات داخل الفورم */
+  .BootstrapDialog form label {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 8px;
+  }
+  
+  /* تصميم الحقول */
+  .BootstrapDialog form input,
+  .BootstrapDialog form textarea {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  
+  /* تأثير عند الفوكس */
+  .BootstrapDialog form input:focus,
+  .BootstrapDialog form textarea:focus {
+    border-color: #1976d2; /* لون أزرق هادئ */
+    outline: none;
+  }
+  
+  /* تصميم زر الإرسال */
+  .BootstrapDialog form button {
+    background-color: #1976d2;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* تأثير الهوفر على الزر */
+  .BootstrapDialog form button:hover {
+    background-color: #1565c0;
+  }
+  
+  /* تصميم رسالة النجاح والخطأ */
+  .successM {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .errorM {
+    color: red;
+    font-weight: bold;
+  }
+  
+  /* تنسيق العنوان داخل الدايالوج */
+  .MuiDialogTitle-root {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* تنسيق زر الإغلاق X */
+  .MuiIconButton-root {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #555;
+  }
+  
+  /* زر Add Your Opinion */
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+  /* التعديلات على الهاتف المحمول */
+  @media (max-width: 980px) {
+    .opinions_info {
+      padding: 32px 16px;
+      flex-direction: column;
+    }
+  
+    .opinion_info_container h1 {
+      font-size: 2rem;
+    }
+  
+    
+    .opinionsContainer {
+      padding: 32px 16px;
+      margin-top: 32px;
+    }
+  
+    .splide__slide {
+      flex-direction: column;  /* ترتيب العناصر عموديًا */
+      padding: 20px;
+      width: 100%;
+    }
+  
+    .opinionBox {
+      width: 100%;
+      max-width: 100%;  /* التأكد من أن العنصر لا يتجاوز العرض */
+      margin: 10px auto;
+    }
+  
+    .opinion_Container {
+      gap: 12px;
+    }
+  
+    .minParagraph {
+      font-size: 14px;
+    }
+  
+    .opinionTitle {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .opinionTitle h4 {
+      font-size: 16px;
+    }
+  
+    .opinionTitle span {
+      font-size: 12px;
+    }
+  
+    .line {
+      width: 100%;
+      margin: 10px 0;
+    }
+  
+    .rating {
+      justify-content: flex-start;
+      margin-top: 10px;
+    }
+  
+    /* إظهار عنصر واحد فقط */
+    .splide__track {
+      display: block;  /* تأكيد أن الشريط يعرض عنصر واحد في كل مرة */
+      overflow: hidden;
+    }
+  
+    .splide__slide {
+      width: 100% !important;  /* التأكد من أن كل عنصر يعرض كامل المساحة */
+    }
+  }
+
+  /* تكييف العرض في الأجهزة الصغيرة جداً */
+  @media (max-width: 480px) {
+    .opinion_info_container h1 {
+      font-size: 1.8rem;
+    }
+  
+  
+    .mainBtn1 {
+      padding: 10px 20px;
+      font-size: 14px;
+    }
+  
+    .splide__slide {
+      padding: 10px;
+    }
+  }
+  
