@@ -272,12 +272,12 @@ const Footer = () => {
                                 >
                                   <Accordion.Header className="AccordionHeader">
                                     <h4>
-                                      1. What services does Acos Agency offer?
+                                      1. What services does Acos web studio offer?
                                     </h4>
                                   </Accordion.Header>
                                   <Accordion.Body>
-                                    Acos Agency specializes in <br /> 1 web
-                                    development <br /> 2 UI/UX design <br /> 3
+                                  Acos web studio specializes in <br /> 1 web
+                                    disegn <br /> 2 UI/UX design <br /> 3
                                     SEO support. <br />
                                     We create tailored digital solutions that
                                     meet the unique needs of businesses, helping
@@ -290,7 +290,7 @@ const Footer = () => {
                                   className="AccordionItem"
                                 >
                                   <Accordion.Header className="AccordionHeader">
-                                    <h4>2. Where is Acos Agency based?</h4>
+                                    <h4>2. Where is Acos web studio based?</h4>
                                   </Accordion.Header>
                                   <Accordion.Body>
                                     We are based in Algeria but proudly serve
