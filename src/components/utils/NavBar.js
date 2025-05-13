@@ -125,7 +125,7 @@ function NavBar() {
               { id: "blog", label: "Blog" },
             ].map((link) => (
               <ScrollLink
-                key={link.id}
+                key={link.id} 
                 className={`mainLink ${activeLink === link.id ? "active" : ""}`}
                 to={link.id}
                 smooth={true}

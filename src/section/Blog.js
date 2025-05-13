@@ -30,7 +30,7 @@ const Blog = () => {
       <Container className="blogContainer">
         <div className=" blog_main_info">
           <h1>
-            Welcome to <br />
+            Welcome to <br /> 
             our blog
           </h1>
           <p>
