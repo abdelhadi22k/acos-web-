@@ -116,7 +116,7 @@ const About = () => {
 
           <div className="about_main_Container">
           <p>
-          What is acos web studio“Acos studio offers innovative solutions in web
+          What is acos web studio “acos  offers innovative solutions in web
           development, SEO, and UIUX design, thanks to a passionate and
           experienced team
           </p>

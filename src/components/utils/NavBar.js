@@ -91,7 +91,7 @@ function NavBar() {
             offset={-100}
             onClick={() => handleLinkClick("contact")}
           >
-            Let's Go
+          Let's start
           </ScrollLink>
         </div>
 

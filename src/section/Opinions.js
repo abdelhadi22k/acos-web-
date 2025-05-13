@@ -80,7 +80,7 @@ const Opinions = () => {
               },
               "& .Mui-selected": {
                 backgroundColor: "white",  // لون الخلفية عند التحديد
-                color: "#888888",          // لون النص عند التحديد
+                color: "#008f8f",          // لون النص عند التحديد
               },
               "& .MuiPaginationItem-ellipsis": {
                 color: "white",            // لون علامات ...
